@@ -14,12 +14,16 @@ export default function DashboardPage() {
             <div className="text-gray-700 text-lg hover:text-blue-700 cursor-pointer m-4">Help</div>
             <div className="text-gray-700 text-lg hover:text-blue-700 cursor-pointer m-4">Setting</div>
         </aside>
-        <div className="flex-1 p-8">
-            <div >
+        <main className="flex-1 p-10">
+            <div>
                 <h2 className="text-2xl font-bold ">Hello, Lekan</h2>
                 <p className="text-gray-700">Have a nice day</p>
+                <div className="flex justify-between items-start mb-8">
+                    <h3 className="text-xl font-bold text-blue-500 mt-4">Users Dashboard</h3>
+                </div>
             </div>
-        </div >
+
+        </main >
             
         </div>
     </>
